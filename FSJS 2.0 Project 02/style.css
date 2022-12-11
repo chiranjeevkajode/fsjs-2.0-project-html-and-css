@@ -1,0 +1,108 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    margin-left: 100px;
+    background-color: #0D0D0D;
+    margin-top: 23px;
+    height: 30px;
+
+}
+
+
+.navbar{
+    display: flex;
+    background-color:#0D0D0D;
+    padding-top: 0px;
+    height: 75px;
+    
+    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    gap: 40px;
+    list-style: none;
+    flex-direction: row;
+    
+}
+.list-item{
+    margin-top: 25px;
+    
+}
+nav div ul li:first-child::after{
+    content: '\02C5';
+    margin-left: 7px;
+    
+    font-size: 12px;
+    
+}
+.list::before{
+    content: '\007C';
+    font-size: 40px;
+    margin-top: 13px;
+    margin-left: 30px;
+    color: #758283;
+}
+
+.button-small{
+    display: flex;
+    
+    margin-left: 300px;
+    margin-top: 20px;
+    padding: 7px 20px;
+    border-radius: 8px;
+    background-color: #c724d0;
+    color: #ffffff;
+    
+}
+
+
+body{
+    background-image: url("assets/bg.png");
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 130vh;
+     
+}
+
+.hero-heading{
+      display: flex;
+      margin-top: 90px;
+      font-size: 6vw;
+      margin-left: 280px;
+      font-family: Sans-serif;
+      color: #ffffff;
+      
+}
+
+.hero-description{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    word-spacing: 3px;
+    color: #ffffff;
+    
+}
+
+.button-large{
+    display: flex;
+    margin-left: 490px;
+    margin-top: 25px;
+    padding: 10px 18px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #c933d1;
+    border-radius: 5px;
+    border: none;
+    
+}

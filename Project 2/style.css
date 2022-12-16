@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    background-color: #fff;
+    margin: auto;
+    overflow: hidden;
+}
+/* section */
+.navbar{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+ul li:first-child{
+    color:rgb(50, 145, 106);
+}
+/* left section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+main section{
+    width: 50%;
+}
+.left-section{
+    margin-left: 5%;
+    position: relative;
+}
+.topangle{
+    width: 25px;
+}
+.left-section h1{
+    font-size: 70px;
+    font-family: sans-serif;
+}
+.left-section p{
+    color: #626b6b;
+    font-size: 18px;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+.bottomangle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25;
+    z-index: -1;
+    margin-left: 240px;
+}.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+.button{
+    color: #fff;
+    background-color:rgb(62, 170, 125);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 26px;
+}
+/* right section  */
+.greencircle, .orangecircle{
+    position: absolute;
+    right: 0;
+
+}
+.greencircle{
+    width: 32%;
+    bottom: 30px;
+    right: 20px;
+}
+.orangecircle{
+    width: 28%;
+    bottom: 50px;
+}
+.doctor{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    height: 90%;
+}
